@@ -86,21 +86,6 @@ This function calculates the structural complexity of the image.
   - `C` (float): The calculated structural complexity.
 
 ## Example
-Here's a simple example of how to use the functions:
-```python
-import numpy as np
-import matplotlib.image as mpimg
-from src import importImage, catchErrors, structuralComplexity
-
-# Import the image
-image = importImage('path_to_image.png', 'intensity')
-
-# Calculate the structural complexity
-complexity = structuralComplexity(image, 1, 5)
-
-print(f'Structural Complexity: {complexity}')
-```
-
 You can also refer to the `notebook.ipynb` file in the repository for a more detailed example, including image visualization:
 ```python
 import numpy as np
