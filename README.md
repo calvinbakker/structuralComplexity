@@ -86,7 +86,7 @@ This function calculates the structural complexity of the image.
   - `C` (float): The calculated structural complexity.
 
 ## Example
-You can also refer to the `notebook.ipynb` file in the repository for a more detailed example, including image visualization:
+You can refer to the `notebook.ipynb` file in the repository for an example implementation, including image visualization:
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
